@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/rl_build/include/**",
+                "/usr/share/qt4/mkspecs/linux-g++-64",
+                "/usr/include/qt4/QtCore/**",
+                "/usr/include/qt4/QtGui/**",
+                "/usr/include/qt4/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

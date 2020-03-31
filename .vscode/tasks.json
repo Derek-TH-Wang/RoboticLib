@@ -1,0 +1,18 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "g++",
+            "args": ["-g", "test.cpp",
+                     "rl_build/X86/librlhal.so", "rl_build/X86/librlkin.so", 
+                     "rl_build/X86/librlmdl.so", "rl_build/X86/librlplan.so", 
+                     "rl_build/X86/librlsg.so", 
+                     "-std=c++11", "-oa.out"],
+            "group": {"kind": "build", "isDefault": true},
+        }
+    ]
+}
